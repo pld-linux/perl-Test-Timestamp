@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Test::Timestamp
 Summary(zh_CN):	Test::Timestamp Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.2
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
