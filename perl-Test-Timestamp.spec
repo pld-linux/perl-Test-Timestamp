@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Timestamp
+%define		pdir	Test
+%define		pnam	Timestamp
 Summary:	Test::Timestamp Perl module
 Summary(cs):	Modul Test::Timestamp pro Perl
 Summary(da):	Perlmodul Test::Timestamp
