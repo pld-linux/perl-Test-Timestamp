@@ -35,9 +35,9 @@ can be used to record the exact time when a certain point in your code
 was executed.
 
 %description -l pl
-U¿ywaj±c togo modu³u mo¿esz stworzyæ jeden lub wiêcej obiektów ze
+U¿ywaj±c tego modu³u mo¿esz stworzyæ jeden lub wiêcej obiektów ze
 znacznikami czasu, które mog± byæ u¿yte do zapamiêtania dok³adnego
-czasu wykonania konkretnej czê¶ci Twojego kodu.
+czasu wykonania konkretnej czê¶ci kodu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
