@@ -22,7 +22,7 @@ Summary(ru):	Модуль для Perl Test::Timestamp
 Summary(sv):	Test::Timestamp Perlmodul
 Summary(uk):	Модуль для Perl Test::Timestamp
 Summary(zh_CN):	Test::Timestamp Perl дё©И
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Test-Timestamp
 Version:	1.2
 Release:	3
 License:	unknown
