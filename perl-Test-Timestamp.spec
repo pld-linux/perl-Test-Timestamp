@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Test::Timestamp
 Summary(it):	Modulo di Perl Test::Timestamp
 Summary(ja):	Test::Timestamp Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Test::Timestamp ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Test::Timestamp
+Summary(nb):	Perlmodul Test::Timestamp
 Summary(pl):	Modu³ Perla Test::Timestamp
 Summary(pt):	Módulo de Perl Test::Timestamp
 Summary(pt_BR):	Módulo Perl Test::Timestamp
