@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Test
 %define		pnam	Timestamp
@@ -21,7 +25,7 @@ Summary(zh_CN):	Test::Timestamp Perl Ä£¿é
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.2
 Release:	2
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ec7c96f3d6e218de1a58661eef7fde51
@@ -48,10 +52,13 @@ czasu wykonania konkretnej czê¶ci kodu.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
