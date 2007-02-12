@@ -6,22 +6,22 @@
 %define		pdir	Test
 %define		pnam	Timestamp
 Summary:	Test::Timestamp Perl module
-Summary(cs):	Modul Test::Timestamp pro Perl
-Summary(da):	Perlmodul Test::Timestamp
-Summary(de):	Test::Timestamp Perl Modul
-Summary(es):	Módulo de Perl Test::Timestamp
-Summary(fr):	Module Perl Test::Timestamp
-Summary(it):	Modulo di Perl Test::Timestamp
-Summary(ja):	Test::Timestamp Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Test::Timestamp ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Test::Timestamp
-Summary(pl):	Modu³ Perla Test::Timestamp
-Summary(pt):	Módulo de Perl Test::Timestamp
-Summary(pt_BR):	Módulo Perl Test::Timestamp
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Test::Timestamp
-Summary(sv):	Test::Timestamp Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Test::Timestamp
-Summary(zh_CN):	Test::Timestamp Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Test::Timestamp pro Perl
+Summary(da.UTF-8):   Perlmodul Test::Timestamp
+Summary(de.UTF-8):   Test::Timestamp Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Test::Timestamp
+Summary(fr.UTF-8):   Module Perl Test::Timestamp
+Summary(it.UTF-8):   Modulo di Perl Test::Timestamp
+Summary(ja.UTF-8):   Test::Timestamp Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Test::Timestamp í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Test::Timestamp
+Summary(pl.UTF-8):   ModuÅ‚ Perla Test::Timestamp
+Summary(pt.UTF-8):   MÃ³dulo de Perl Test::Timestamp
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Test::Timestamp
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Test::Timestamp
+Summary(sv.UTF-8):   Test::Timestamp Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Test::Timestamp
+Summary(zh_CN.UTF-8):   Test::Timestamp Perl æ¨¡å—
 Name:		perl-Test-Timestamp
 Version:	1.2
 Release:	3
@@ -39,10 +39,10 @@ With this module you can create one or more timestamp objects which
 can be used to record the exact time when a certain point in your code
 was executed.
 
-%description -l pl
-U¿ywaj±c tego modu³u mo¿esz stworzyæ jeden lub wiêcej obiektów ze
-znacznikami czasu, które mog± byæ u¿yte do zapamiêtania dok³adnego
-czasu wykonania konkretnej czê¶ci kodu.
+%description -l pl.UTF-8
+UÅ¼ywajÄ…c tego moduÅ‚u moÅ¼esz stworzyÄ‡ jeden lub wiÄ™cej obiektÃ³w ze
+znacznikami czasu, ktÃ³re mogÄ… byÄ‡ uÅ¼yte do zapamiÄ™tania dokÅ‚adnego
+czasu wykonania konkretnej czÄ™Å›ci kodu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
