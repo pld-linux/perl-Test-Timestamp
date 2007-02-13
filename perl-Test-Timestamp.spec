@@ -6,22 +6,22 @@
 %define		pdir	Test
 %define		pnam	Timestamp
 Summary:	Test::Timestamp Perl module
-Summary(cs.UTF-8):   Modul Test::Timestamp pro Perl
-Summary(da.UTF-8):   Perlmodul Test::Timestamp
-Summary(de.UTF-8):   Test::Timestamp Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Test::Timestamp
-Summary(fr.UTF-8):   Module Perl Test::Timestamp
-Summary(it.UTF-8):   Modulo di Perl Test::Timestamp
-Summary(ja.UTF-8):   Test::Timestamp Perl モジュール
-Summary(ko.UTF-8):   Test::Timestamp 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Test::Timestamp
-Summary(pl.UTF-8):   Moduł Perla Test::Timestamp
-Summary(pt.UTF-8):   Módulo de Perl Test::Timestamp
-Summary(pt_BR.UTF-8):   Módulo Perl Test::Timestamp
-Summary(ru.UTF-8):   Модуль для Perl Test::Timestamp
-Summary(sv.UTF-8):   Test::Timestamp Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Test::Timestamp
-Summary(zh_CN.UTF-8):   Test::Timestamp Perl 模块
+Summary(cs.UTF-8):	Modul Test::Timestamp pro Perl
+Summary(da.UTF-8):	Perlmodul Test::Timestamp
+Summary(de.UTF-8):	Test::Timestamp Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Test::Timestamp
+Summary(fr.UTF-8):	Module Perl Test::Timestamp
+Summary(it.UTF-8):	Modulo di Perl Test::Timestamp
+Summary(ja.UTF-8):	Test::Timestamp Perl モジュール
+Summary(ko.UTF-8):	Test::Timestamp 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Test::Timestamp
+Summary(pl.UTF-8):	Moduł Perla Test::Timestamp
+Summary(pt.UTF-8):	Módulo de Perl Test::Timestamp
+Summary(pt_BR.UTF-8):	Módulo Perl Test::Timestamp
+Summary(ru.UTF-8):	Модуль для Perl Test::Timestamp
+Summary(sv.UTF-8):	Test::Timestamp Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Test::Timestamp
+Summary(zh_CN.UTF-8):	Test::Timestamp Perl 模块
 Name:		perl-Test-Timestamp
 Version:	1.2
 Release:	3
