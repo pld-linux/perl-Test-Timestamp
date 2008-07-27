@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Test::Timestamp
 Summary(zh_CN.UTF-8):	Test::Timestamp Perl 模块
 Name:		perl-Test-Timestamp
 Version:	1.2
-Release:	3
+Release:	4
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
