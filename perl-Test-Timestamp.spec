@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Test
 %define		pnam	Timestamp
+%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Timestamp Perl module
 Summary(cs.UTF-8):	Modul Test::Timestamp pro Perl
 Summary(da.UTF-8):	Perlmodul Test::Timestamp
@@ -29,6 +29,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ec7c96f3d6e218de1a58661eef7fde51
+URL:		http://search.cpan.org/dist/Test-Timestamp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
