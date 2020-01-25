@@ -4,7 +4,6 @@
 
 %define		pdir	Test
 %define		pnam	Timestamp
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Timestamp Perl module
 Summary(cs.UTF-8):	Modul Test::Timestamp pro Perl
 Summary(da.UTF-8):	Perlmodul Test::Timestamp
